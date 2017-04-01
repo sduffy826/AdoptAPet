@@ -15,3 +15,6 @@ I also wanted to play with intents so I included three, if you click on the addr
 google maps (with the street view), clicking the phone will bring up the phone keypad and pre-dial
 the number, clicking the website will launch the web browser.  Note: since I used a fictitious
 business I used a local pet adoption agency for the address/websites.
+
+Last note: I included an image of the app (ScreenShot.png) so that you could see what the app
+looks like without having to download/run it (want to see the intents then you need to run it :))
