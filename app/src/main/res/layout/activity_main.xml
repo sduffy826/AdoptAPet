@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/topViewGroup"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.duffy_w530.project3_adoptpet.MainActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_weight="1"
+        android:scaleType="centerCrop"
+        android:src="@drawable/adopt_a_puppy"/>
+
+    <TextView
+        style="@style/MyAppTheme.standard"
+        android:text="@string/desc"/>
+
+    <TextView
+        style="@style/MyAppTheme.standard"
+        android:text="@string/about"/>
+
+    <LinearLayout
+        style="@style/MyAppTheme.standard"
+        android:layout_margin="0dp"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/MyAppTheme.company"
+            android:text="@string/company"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <TextView
+                style="@style/MyAppTheme.address"
+                android:onClick="showMap"
+                android:text="@string/address1"/>
+
+            <TextView
+                style="@style/MyAppTheme.address"
+                android:onClick="showMap"
+                android:text="@string/address2"/>
+
+            <TextView
+                style="@style/MyAppTheme.address"
+                android:onClick="dialPhone"
+                android:text="@string/phone"/>
+
+            <TextView
+                style="@style/MyAppTheme.address"
+                android:onClick="goToWebSite"
+                android:text="@string/website"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

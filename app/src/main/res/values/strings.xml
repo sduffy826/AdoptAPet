@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Live Longer - Adopt A Pet</string>
+    <string name="desc">Studies have shown that people with pets live longer.
+                        Pets help lower stress levels, decrease blood pressure,
+                        helps cholesterol, improves our mood and boosts our
+                        immune system.  Want to live longer - adopt a pet!</string>
+    <string name="about">Here at Furry Friends we are dedicated to pairing you up
+                         with a best friend.  We match your personality, lifestyle
+                         and activities to find the perfect companion, and
+                         we guarantee it!</string>
+    <string name="company">Furry Friends, LLC</string>
+    <string name="address1">911 Catnip Ct</string>
+    <string name="address2">Charity, NY 10901</string>
+    <string name="phone">800-ADOPTME</string>
+    <string name="website">http://www.furBud.org</string>
+    <string name="toolbar_title">The life you save may be your own</string>
+</resources>
